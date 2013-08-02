@@ -14,8 +14,8 @@
 		<org.springsecurity-version>3.0.5.RELEASE</org.springsecurity-version>
 		<org.aspectj-version>1.6.9</org.aspectj-version>
 		<org.slf4j-version>1.6.1</org.slf4j-version>
-    <com.typesafe.akka-version>2.1.0</com.typesafe.akka-version>
-    <scala.version>2.10.0</scala.version>
+    <com.typesafe.akka-version>2.2.0</com.typesafe.akka-version>
+    <scala.version>2.10.1</scala.version>
 	</properties>
 	<dependencies>	
     <!-- Akka -->
@@ -351,7 +351,7 @@
         <artifactId>maven-jetty-plugin</artifactId>
         <version>6.1.10</version>
         <configuration>
-                <scanIntervalSeconds>10</scanIntervalSeconds>
+                <scanIntervalSeconds>2</scanIntervalSeconds>
                 <stopKey>foo</stopKey>
                 <stopPort>9999</stopPort>
         </configuration>
